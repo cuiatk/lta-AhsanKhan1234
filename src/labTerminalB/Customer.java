@@ -36,6 +36,7 @@ public class Customer {
 		 * if movie is NEW_RELEASE and days for which the movie is rented is greater than 1 then add 1 frequent point to 'this amount' and then 'this amount' to 'total amount'
 		 * 
          */
+		
 		public String statement() {
 		double totalAmount = 0;
 		int frequentRenterPoints = 0;
