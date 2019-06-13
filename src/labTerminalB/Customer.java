@@ -28,8 +28,14 @@ public class Customer {
 		
 		/**
 		 * TODO 3		10 Marks
-		 * Provide suitable specification for statement method 
-		 */
+		 * @return the statement method returns the total Amount and frequent rentals points if movie is NEW_RELEASE.
+		 * Total Amount is determined for all the three movies i.e REGULAR,NEW_RELEASE,CHILDRENS.
+		 * if movie is REGULAR then add 2 to amount if daysRented greater than 2 then add  (each.getDaysRented() - 2) * 1.5 to amount.
+		 * if movie is CHILDRENS then add 1.5 to amount if daysRented greater than 3 then add  (each.getDaysRented() - 3) * 1.5.
+		 * statement also computes frequent renter points, which vary depending on whether the film is a new release.
+		 * if movie is NEW_RELEASE and days for which the movie is rented is greater than 1 then add 1 frequent point to 'this amount' and then 'this amount' to 'total amount'
+		 * 
+         */
 		public String statement() {
 		double totalAmount = 0;
 		int frequentRenterPoints = 0;
