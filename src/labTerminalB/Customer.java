@@ -18,6 +18,7 @@ public class Customer {
 			return _name;
 		};
 		
+		
 		/*
 		 * TODO 4		20 Marks
 		 * Identify the bad smells in the statement method and refactor the code

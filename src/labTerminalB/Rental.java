@@ -12,6 +12,7 @@ public class Rental {
 		return _daysRented;
 	}
 	public Movie getMovie() {
+		
 		return _movie;
 	}
 	double getCharge() {
