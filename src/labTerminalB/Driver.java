@@ -28,7 +28,8 @@ public class Driver {
 		Rental r3 = new Rental(m3,3);
 		me.addRental(r1);
 		me.addRental(r2);
-		me2.addRental(r3);
+		me2.addRental(r1);
+		me2.addRental(r2);
 		System.out.println(me.statement());
 		System.out.println(me2.statement());
 

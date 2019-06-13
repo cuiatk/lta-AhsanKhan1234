@@ -21,3 +21,18 @@ public class Movie {
 	};
 }
 
+/*
+ * TODO 4		20 Marks
+ * Identify the bad smells in the statement method and refactor the code
+ * In case you add a new method also provide specifications for new method
+ * after refactoring all test cases must still be passed
+ * Commit after each change and include a meaningful message about the change you made
+ * e.g. Method Move methodName();
+ * 
+ */
+
+/**
+ * TODO 3		10 Marks
+ * Provide suitable specification for statement method 
+ */
+
